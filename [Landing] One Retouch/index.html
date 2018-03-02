@@ -1,0 +1,1218 @@
+<!DOCTYPE html>
+<html lang="en-US"><head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>One Retouch</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto+Slab:400,700" rel="stylesheet" type="text/css">
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/owl.carousel.css">
+    <link rel="stylesheet" href="css/style.css">
+	<link href="http://allfont.ru/allfont.css?fonts=roboto-slab-bold" rel="stylesheet" type="text/css" />
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+	<script src="http://owlgraphic.com/owlcarousel/owl-carousel/owl.carousel.js"></script>
+	<link href="http://owlgraphic.com/owlcarousel/owl-carousel/owl.transitions.css" rel="stylesheet">
+	
+	<!-- Add fancyBox main JS and CSS files -->
+	<script type="text/javascript" src="source/jquery.fancybox.js?v=2.1.5"></script>
+	<link rel="stylesheet" type="text/css" href="source/jquery.fancybox.css?v=2.1.5" media="screen" />
+
+	<!-- Add Button helper (this is optional) -->
+	<link rel="stylesheet" type="text/css" href=".source/helpers/jquery.fancybox-buttons.css?v=1.0.5" />
+	<script type="text/javascript" src="source/helpers/jquery.fancybox-buttons.js?v=1.0.5"></script>
+
+	<!-- Add Thumbnail helper (this is optional) -->
+	<link rel="stylesheet" type="text/css" href="source/helpers/jquery.fancybox-thumbs.css?v=1.0.7" />
+	<script type="text/javascript" src="source/helpers/jquery.fancybox-thumbs.js?v=1.0.7"></script>
+
+	<!-- Add Media helper (this is optional) -->
+	<script type="text/javascript" src="source/helpers/jquery.fancybox-media.js?v=1.0.6"></script>
+	
+	<script>
+		$(document).ready(function() {
+		var owl = $("#owl-demo");
+
+		  owl.owlCarousel({
+			navigation : true,
+			singleItem : true,
+			transitionStyle : "fade"
+		  });
+
+		  //Select Transtion Type
+		  $("#transitionType").change(function(){
+			var newValue = $(this).val();
+
+			//TransitionTypes is owlCarousel inner method.
+			owl.data("owlCarousel").transitionTypes(newValue);
+
+			//After change type go to next slide
+			owl.trigger("owl.next");
+		  });
+		});
+	</script>
+</head>
+<body>
+
+    <div class="first-block">
+        <div class="top-menu">
+            <div class="center-menu clearfix">
+                <a href="#" class="logo"></a>
+                <div class="contact">
+                    <div class="telephone">8 (800) 333-69-44</div>
+                    звонок по России бесплатный
+                </div>
+                <a href="#" class="call-me">Перезвонить мне</a>
+            </div>
+        </div>
+        <div class="text-main-block">
+            <div class="vertical-middle-wrapper">
+                <div>
+                    <div class="top">КАК ЛЕГКО ИЗУЧИТЬ ФОТОШОП<br>И ВЛЮБИТЬ В СВОИ ФОТОГРАФИИ МИЛЛИОНЫ!</div>
+                    <div class="bottom">Всего 19 уроков, которые изменят ваше представление о ретуши </div>
+                </div>
+            </div>
+        </div>
+        <a href="" class="down-btn"></a>
+    </div>
+
+    <div class="wrapper-block" id="toslide">
+        <div class="center-bl">
+            <div class="title">
+                Для чего в современном мире используется Фотошоп?<br>Практически для всего
+            </div>
+            <div class="text-first-bl">
+                Сфера применения программы достаточно обширна и имеет огромное множество применений. Это может быть как ваша первая обработанная фотография для семейного архива, так и обложка для дорогого глянцевого журнала. С уверенностью можно сказать, что Фотошоп на сегодняшний день является лидером на рынке фоторедакторов, и куда бы вы не посмотрели, будь то это свадебные фотографии или рекламный билборд на улице, все они прошли через Фотошоп. Изучив его, перед вам откроются большие возможности.
+            </div>
+            <div class="artical-box-4 clearfix">
+                <div class="one-block">
+                    <div class="box-img"><img src="img/img1.png" alt="img"></div>
+                    <div class="title">
+                        Реклама
+                    </div>
+                    <div class="text">
+                        Она повсюду: на улице, в интернете, в журналах. Это двигатель продаж, который должен быть «вкусным» и уметь привлекать внимание
+                    </div>
+                </div>
+                <div class="one-block">
+                    <div class="box-img"><img src="img/img2.png" alt="img"></div>
+                    <div class="title">
+                        Фотография
+                    </div>
+                    <div class="text">
+                        Фотошоп используют абсолютно все. Начиная от обычных пользователей, которые применяют его для личных снимков, и заканчивая профессиональными фотографами и ретушерами
+                    </div>
+                </div>
+                <div class="one-block">
+                    <div class="box-img"><img src="img/img3.png" alt="img"></div>
+                    <div class="title">
+                        Журналы
+                    </div>
+                    <div class="text">
+                        В данной сфере ретушь фотографий является необходимостью. Только так журнал будет выглядеть привлекательно и вызывать желание его приобрести
+                    </div>
+                </div>
+                <div class="one-block">
+                    <div class="box-img"><img src="img/img4.png" alt="img"></div>
+                    <div class="title">
+                        Дизайн
+                    </div>
+                    <div class="text">
+                        95% дизайнеров используют программу для своих задач. Тут делают все, начиная от небольших сайтов и заканчивая промышленным дизайном
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="wrapper-block gray">
+        <div class="center-bl">
+            <div class="title">
+                Представляем вам курс
+            </div>
+            <div class="pink-box">ИСКУССТВО РЕТУШИ</div>
+            <div class="text-retush">
+                Видеокурс разработан по такой структуре, которая упрощает ваше обучение и улучшает полученные результаты. Он вобрал в себя многолетний опыт автора и современные методы ретуши, являющиеся вершиной профессионализма в Фотошопе.
+            </div>
+            <div class="book-number">
+                <div class="photo-number">
+                    <div class="one-block">
+                        <div class="big">19</div>
+                        уроков
+                    </div>
+                    <div class="one-block">
+                        <div class="big">15</div>
+                        часов видео
+                    </div>
+                    <div class="one-block">
+                        <div class="big">17</div>
+                        гигабайт материала
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="wrapper-block">
+        <div class="center-bl">
+            <div class="title">
+                Особенности курса
+            </div>
+            <div class="artical-box-4 clearfix">
+                <div class="one-block">
+                    <div class="box-img2"><img src="img/ico1.png" alt="img"></div>
+                    <div class="title">
+                        Доводим до результата
+                    </div>
+                    <div class="text">
+                        В каждом уроке мы обрабатываем фотографию полностью до готового результата, что дает вам возможность изучить весь процесс ретуши
+                    </div>
+                </div>
+                <div class="one-block">
+                    <div class="box-img2"><img src="img/ico2.png" alt="img"></div>
+                    <div class="title">
+                        Шаг за шагом
+                    </div>
+                    <div class="text">
+                        Чтобы курс был понятным и несложным в изучении, мы двигаемся постепенно, от простого к сложному
+                    </div>
+                </div>
+                <div class="one-block">
+                    <div class="box-img2"><img src="img/ico3.png" alt="img"></div>
+                    <div class="title">
+                        Грамотная структура уроков
+                    </div>
+                    <div class="text">
+                        Чтобы избавить вас от ненужной информации, каждый урок был проработан и записан по отточенной методике
+                    </div>
+                </div>
+                <div class="one-block">
+                    <div class="box-img2"><img src="img/ico4.png" alt="img"></div>
+                    <div class="title">
+                        Доступ к исходникам
+                    </div>
+                    <div class="text">
+                        Все фотографии, с которыми мы будем работать, а так же их исходники, будут доступны для вас
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="wrapper-block gray">
+        <div class="center-bl">
+            <div class="title">
+                Полезное для вас видео
+            </div>
+            <div class="box-video">
+			<a onclick="playvideo();" class="play-video"></a>
+				<div class="play-video"></div>
+            </div>
+        </div>
+    </div>
+
+    <div class="wrapper-block wrapper-first-news">
+        <div class="center-bl">
+            <div class="title">
+                Что мы будем изучать
+            </div>
+            <div class="text-over-slider">
+                Ретушь фотографий в Фотошопе имеет множество направлений, и каждое из них по-своему важно. Мы постараемся полностью их охватить, чтобы ваши знания стали наиболее полными
+            </div>
+            <div id="owl-demo" class="owl-carousel owl-theme owl-demo">
+ 
+							<div class="item">
+								<div class="box-img">
+									<img src="img/slide/1.jpg" alt="img">
+								</div>
+								<div class="text-img">
+									<div class="title">Инструменты</div>
+									Изучение программы конечно же начинается с интерфейса и инструментов, являющихся основой в любом редакторе. Каждый инструмент - это набор возможностей, которые приведут вас к задуманному результату
+								</div>
+							</div>
+							<div class="item">
+								<div class="box-img">
+									<img src="img/slide/2.jpg" alt="img">
+								</div>
+								<div class="text-img">
+									<div class="title">Слои</div>
+По своей значимости слои идут сразу после инструментов и являются незаменимой частью программы. Именно они позволяют управлять каждым эллементом в отдельности и вести слаженную работу.								</div>
+							</div>
+							<div class="item">
+								<div class="box-img">
+									<img src="img/slide/3.jpg" alt="img">
+								</div>
+								<div class="text-img" style="width: 730px;">
+									<div class="title">Маски</div>
+Маски дают огромные возможности в работе с фотографиями. С их помощью можно изменять части изображения,локально накладывать эффекты, а также делать многое другое. Благодаря этому вы сможете раскрыть весь свой творческий потенциал и проявить изобретательность.								</div>
+							</div>
+							<div class="item">
+								<div class="box-img">
+									<img src="img/slide/4.jpg" alt="img">
+								</div>
+								<div class="text-img">
+									<div class="title">Цветокоррекция</div>
+Значимость цветокоррекции трудно переоценить, поскольку она оказывает сильное влияние на общее восприятие от снимка. Грамотно подобрав цветовой тон фотографии у окружающих можно вызвать различные чувства и эмоции.								</div>
+							</div>
+							<div class="item">
+								<div class="box-img">
+									<img src="img/slide/5.jpg" alt="img">
+								</div>
+								<div class="text-img">
+									<div class="title">Ретушь</div>
+Одно из основных применений Фотошопа является ретушь. Это непростое занятие, но в тоже время самое интересное. Именно ретушь портретов это та область, которая является показателем вашего професионализма.								</div>
+							</div>
+							<div class="item">
+								<div class="box-img">
+									<img src="img/slide/6.jpg" alt="img">
+								</div>
+								<div class="text-img">
+									<div class="title">Пластика</div>
+Фильтр пластика является мощным инструментом для ретуширования изображения. Он позволяет искажать пиксели любой фотографий без потери качества, изменять форму фигуры и придавать ей изящность.								</div>
+							</div>
+							<div class="item">
+								<div class="box-img">
+									<img src="img/slide/7.jpg" alt="img">
+								</div>
+								<div class="text-img" style="width: 600px;">
+									<div class="title">Реставрация</div>
+Многие бумажные фотографии изнашиваются со временем. Реставрация - это единственный способ, который может вернуть их к первоначальному виду, а вам дать неоценимый опыт.								</div>
+							</div>
+							<div class="item">
+								<div class="box-img">
+									<img src="img/slide/8.jpg" alt="img">
+								</div>
+								<div class="text-img">
+									<div class="title">Окрашивание фотографии</div>
+Черно-белые снимки являются классикой, и произведя окрашивание вы вдохнете в них новую жизнь. Это отличный способ отточить свои навыки по подбору цвета и подарить окружающим возможность взглянуть на фотографии по-новому.								</div>
+							</div>
+		</div>
+            <div class="program-video">
+                <div class="title">Программа видеокурса</div>
+                <div class="text-under">
+                    Каждый урок продуман до мельчайших деталей. Мы будем двигаться постепенно, от простого к сложному,что даст вам возможность легко освоить материал и закрепить полученные знания.
+                </div>
+                <div class="block-news">
+                    <div class="one-block clearfix">
+                        <div class="box-img">
+                            <img src="img/img7.png" alt="img">
+                        </div>
+                        <div class="box-text">
+                            <div class="article">Урок 1. Инструменты</div>
+                            <p>В этом уроке мы изучим интерфейс программы, расположение окон, разберем, что находится во вкладках. Так же пройдемся по инструментам, посмотрим на способы их применения и возможности.</p>
+                            <p>Длительность: 20:39</p>
+                        </div>
+                    </div>
+                    <div class="one-block clearfix">
+                        <div class="box-img">
+                            <img src="img/img8.png" alt="img">
+                        </div>
+                        <div class="box-text">
+                            <div class="article">Урок 2. Слои</div>
+                            <p>
+                                На примере космической иллюстрации мы научимся выделять объекты и переносить их на другой снимок. Затем разберем, что такое слои и как они работают. Благодаря им, можно управлять каждым объектом в отдельности, например: увеличивать или уменьшать его, скрывать и перемещать по фотографии.
+                            </p>
+                            <p>Длительность: 20:39</p>
+                        </div>
+                    </div>
+                    <div class="one-block clearfix">
+                        <div class="box-img">
+                            <img src="img/img9.png" alt="img">
+                        </div>
+                        <div class="box-text">
+                            <div class="article">Урок 3. Маски</div>
+                            <p>
+                                Мы научимся работать с масками. Их задача заключается в том, чтобы управлять прозрачностью слоя. Но слой можно делать не полностью прозрачным, а только в тех местах, где вам это нужно. Сам самолет мы будем переносить с помощью маски, так как она позволяет в любой момент внести изменения в выделение, при этом не затрагивая саму фотографию.
+                            </p>
+                            <p>Длительность: 20:39</p>
+                        </div>
+                    </div>
+                    <div class="one-block clearfix">
+                        <div class="box-img">
+                            <img src="img/img10.png" alt="img">
+                        </div>
+                        <div class="box-text">
+                            <div class="article">Урок 4. Выделение сложных объектов</div>
+                            <p>
+                                В Фотошопе можно производить выделение многими способами. Но есть такие объекты, которые невозможно качественно выделить руками. В этом уроке мы научимся выделять такие области, как волосы и грива, с помощью каналов.
+                            </p>
+                            <p>Длительность: 20:39</p>
+                        </div>
+                    </div>
+                    <div class="one-block clearfix">
+                        <div class="box-img">
+                            <img src="img/img11.png" alt="img">
+                        </div>
+                        <div class="box-text">
+                            <div class="article">Урок 5. Пластика</div>
+                            <p>
+                                В данном уроке мы познакомимся с фильтром «Пластика». Изучим все его инструменты, и на примере нашей модели посмотрим как они работают. Наша задача заключается в том, чтобы преобразить фигуру девушки, сделать ее более изящной.
+                            </p>
+                            <p>Длительность: 20:39</p>
+                        </div>
+                    </div>
+                    <div class="one-block clearfix">
+                        <div class="box-img">
+                            <img src="img/img12.png" alt="img">
+                        </div>
+                        <div class="box-text">
+                            <div class="article">Урок 6. Марионеточная деформация</div>
+                            <p>
+                                Бывают такие фотографии, на которых поза человека смотрится неестественно. И для того, чтобы уметь решать эту проблему, мы познакомимся с «Марионеточной деформацией». Она позволит нам менять положение частей тела или других объектов до тех пор, пока не будет достигнут нужный результат.
+                            </p>
+                            <p>Длительность: 20:39</p>
+                        </div>
+                    </div>
+                    <div class="one-block clearfix">
+                        <div class="box-img">
+                            <img src="img/13.png" alt="img">
+                        </div>
+                        <div class="box-text">
+                            <div class="article">Урок 7. Увеличение роста</div>
+                            <p>В этом уроке мы изучим интерфейс программы, расположение окон, разберем, что находится во вкладках. Так же пройдемся по инструментам, посмотрим на способы их применения и возможности.</p>
+                            <p>Длительность: 09:38</p>
+                        </div>
+                    </div>
+                    <div class="one-block clearfix">
+                        <div class="box-img">
+                            <img src="img/12.png" alt="img">
+                        </div>
+                        <div class="box-text">
+                            <div class="article">Урок 8. Цветокоррекция</div>
+                            <p>
+Цветокоррекция является важной составляющей хорошей фотографии, и чтобы добиться потрясающего результата, мы изучим 3 важных инструмента. Первый - это корректирующие слои, являющиеся фундаментальной основой цветокоррекции. Второй - режимы наложения. Это инструмент, помогающий смешивать слои и получать определенные эффекты. И заключительный - это техника Додж энд Берн. Техника, которая будет делать наши фотографии более объемными, и с которой мы будем часто встречаться на протяжении всего курса.							</p>
+                            <p>Длительность: 43:02</p>
+                        </div>
+                    </div>
+                    <div class="one-block clearfix">
+                        <div class="box-img">
+                            <img src="img/11.png" alt="img">
+                        </div>
+                        <div class="box-text">
+                            <div class="article">Урок 9. Ретушь портрета</div>
+                            <p>
+Урок будет посвящен одному из самых популярных видов фотосъемки - портретной фотографии. Мы познакомимся с инструментами ретуши, научимся очищать кожу от различных морщин, дефектов и прочих проблемных участков. Также будем работать с волосами и разберем как делать зубы естественно белыми. Обязательно научимся работать с глазами, делать их ярче и более выразительными. Это именно тот классический вид ретуши, который применяют большинство профессионалов.                            </p>
+                            <p>Длительность: 02:16:40</p>
+                        </div>
+                    </div>
+                    <div class="one-block clearfix">
+                        <div class="box-img">
+                            <img src="img/10.png" alt="img">
+                        </div>
+                        <div class="box-text">
+                            <div class="article">Урок 10. Ретушь портрета – Частотное разложение</div>
+                            <p>
+Это новый портрет и новый способ ретуши. Урок будет посвящен методу частотного разложения, который является наиболее серьезной техникой в отличии от классической. Вы узнаете как  убирать крупные и мелкие неровности, а само лицо делать идеально гладким и чистым. Также будем работать с волосами. Научимся их чистить, дорисовывать новые, и в целом приводить прическу к красивому и завершенному виду. На заключительном этапе мы уделим время цветокоррекции.                            </p>
+                            <p>Длительность: 02:11:35</p>
+                        </div>
+                    </div>
+					<div class="one-block clearfix">
+                        <div class="box-img">
+                            <img src="img/img111.jpg" alt="img">
+                        </div>
+                        <div class="box-text">
+                            <div class="article">Урок 11. Ретушь портрета – Додж энд Берн</div>
+                            <p>
+					В нашем третьем уроке, посвященному ретуши, мы будем обрабатывать портрет с помощью метода Додж энд Берн, или как это звучит в переводе на русский язык «Осветление и затемнение». Это один из самых мощных инструментов на сегодняшний день. Вы научитесь чистить и выравнивать кожу абсолютно не затрагивая ее, а работая только с тенью и светом. Процесс довольно кропотливый, но именно эта техника дает наилучшие результаты.                            <p>Длительность: 01:10:31</p>
+                        </div>
+                    </div>
+                    <div class="one-block clearfix">
+                        <div class="box-img">
+                            <img src="img/9.png" alt="img">
+                        </div>
+                        <div class="box-text">
+                            <div class="article">Урок 12. Мужской портрет</div>
+                            <p>
+Научившись ретушировать женские портреты, мы с вами перейдем к мужским. Конечно их не так много, но они все же встречаются, и с ними надо уметь работать. Основной принцип при ретуши мужчины - сохранение его мужественности. Как раз этому и будет посвящен урок. Вы узнаете как придать брутальности мужчине, а также как прорисовать его щетину, сделав ее более густой и красивой.                            </p>
+                            <p>Длительность: 01:15:02</p>
+                        </div>
+                    </div>
+                    <div class="one-block clearfix">
+                        <div class="box-img">
+                            <img src="img/8.png" alt="img">
+                        </div>
+                        <div class="box-text">
+                            <div class="article">Урок 13. Fashion ретушь</div>
+                            <p>
+Мы переходим от крупных планов к моделям в полный рост. Тут нам понадобятся знания, которые мы получили ранее, а также внимание к мелочам. Fashion снимки - это тот вид фотографий, который должен выглядеть идеально. В завершение мы рассмотрим эффектную цветовую схему, которая придаст особый шарм нашей фотографии.                             </p>
+                            <p>Длительность: 01:01:32</p>
+                        </div>
+                    </div>
+                    <div class="one-block clearfix">
+                        <div class="box-img">
+                            <img src="img/5.png" alt="img">
+                        </div>
+                        <div class="box-text">
+                            <div class="article">Урок 14. Ретушь в стиле Esquire</div>
+                            <p>
+Этот урок будет посвящен достаточно популярной технике, которая используется в журнале Эсквайер, а в частности на его главной обложке. Мы научимся с помощью программы создавать освещение, которое и выделяет все эти портреты на фоне других. В этом нам поможет Додж энд Берн и его нестандартное применение.							</p>
+                            <p>Длительность: 39:21</p>
+                        </div>
+                    </div>
+                    <div class="one-block clearfix">
+                        <div class="box-img">
+                            <img src="img/4.png" alt="img">
+                        </div>
+                        <div class="box-text">
+                            <div class="article">Урок 15. Реставрация</div>
+                            <p>
+Практически у всех нас или у наших родственников есть старые снимки. Со временем бумага желтеет, изнашивается или просто рвется. Чтобы сохранить фотографии, как часть истории, мы научимся их реставрировать. Работа является кропотливой, но конечно все зависит от того, насколько повреждена фотография. В нашем случае, снимок в достаточно плохом состоянии, и мы постараемся вернуть его к первоначальному виду.                            </p>
+                            <p>Длительность: 01:26:03</p>
+                        </div>
+                    </div>
+                    <div class="one-block clearfix">
+                        <div class="box-img">
+                            <img src="img/3.png" alt="img">
+                        </div>
+                        <div class="box-text">
+                            <div class="article">Урок 16. Окрашивание черно-белой фотографии</div>
+                            <p>
+Всегда интересно наблюдать, как черно-белые работы перевоплощаются в цветные. На примере известной фотографии мы научимся правильно окрашивать черно-белые снимки так, чтобы они выглядели естественно. Разберем как производить подбор цвета и способ его нанесения.                            </p>
+                            <p>Длительность: 01:02:13</p>
+                        </div>
+                    </div>
+                    <div class="one-block clearfix">
+                        <div class="box-img">
+                            <img src="img/2.png" alt="img">
+                        </div>
+                        <div class="box-text">
+                            <div class="article">Урок 17. Предметная ретушь</div>
+                            <p>
+Изучение предметной ретуши будет полезно тем, что вы для себя откроете новый и достаточно интересный способ работы с предметами. Вы узнаете, как быстро удалить пыль со стеклянного флакона, а его поверхность сделать идеально гладкой. Подобная техника ретуши является полезной и хорошо дополнит вашу копилку знаний.                            </p>
+                            <p>Длительность: 01:09:33</p>
+                        </div>
+                    </div>
+                    <div class="one-block clearfix">
+                        <div class="box-img">
+                            <img src="img/1.png" alt="img">
+                        </div>
+                        <div class="box-text">
+                            <div class="article">Урок 18. Коллаж</div>
+                            <p>
+В заключительном уроке у нас будет простая и интересная задача. Мы создадим постер в стиле одной из популярных игр. Очистим пляж от посторонних людей, выделим и перенесем девушку на другой снимок. А в завершение добавим легкий эффект рисованного изображения.                            </p>
+                            <p>Длительность: 38:52</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="wrapper-block">
+        <div class="center-bl">
+            <div class="title">
+                Для кого полезен будет этот курс
+            </div>
+            <div class="artical-box-4 clearfix">
+                <div class="one-block">
+                    <div class="box-img2"><img src="img/ico7.png" alt="img"></div>
+                    <div class="title">
+                        Новичкам
+                    </div>
+                    <div class="text">
+                        Этот курс подойдет абсолютно всем, кто хочет с нуля освоить Фотошоп и начать создавать потрясающие фотографии
+                    </div>
+                </div>
+                <div class="one-block">
+                    <div class="box-img2"><img src="img/ico8.png" alt="img"></div>
+                    <div class="title">
+                        Средний уровень
+                    </div>
+                    <div class="text">
+                        Если у вас уже есть опыт работы в программе, вы сможете поднять свои знания до профессионального уровня и реализовать любые свои идеи
+                    </div>
+                </div>
+                <div class="one-block">
+                    <div class="box-img2"><img src="img/ico9.png" alt="img"></div>
+                    <div class="title">
+                        Фотографам
+                    </div>
+                    <div class="text">
+                        Владение ретушью является незаменимым навыком для фотографа. Если вы хотите выйти на новый уровень, этот курс как раз для вас
+                    </div>
+                </div>
+                <div class="one-block">
+                    <div class="box-img2"><img src="img/ico10.png" alt="img"></div>
+                    <div class="title">
+                        Дизайнерам
+                    </div>
+                    <div class="text">
+                        В каой бы сфере не работал дизайнер, владение Фотошопом дает ему большие возможности и переход к проектам более высокого уровня
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="wrapper-block gray">
+        <div class="center-bl2">
+            <div class="title">
+                Несколько слов об авторе
+            </div>
+            <div class="about-author">
+                <p class="big">
+                    Знакомьтесь – Дмитрий Горбовец, более 6 лет опыта в профессиональной фотосъемке и ретуши.
+                </p>
+				<br>
+                <p>
+                    Начал работу в Фотошопе еще с 2004 года и использовал его исключительно в личных целях, что послужило толчком к дальнейшему развитию в этой сфере. В период с 2007 по 2009 год работал в крупном рекламном агенстве, где получил бесценный опыт в ретуши, а также знания в области видео- и фотосъемки. В 2010 году приобрел фотоаппарат 5D Mark II и связал свою деятельность с фрилансом.
+                </p>
+                <p>
+                    Последние пару лет плотно занимается съемкой и ретушью на коммерческой основе, в частности бьюти-портретами. В начале 2015 года принимает решение записать курс по Фотошопу с целью поделиться накопленными знаниями и навыками.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <div class="wrapper-block">
+        <div class="center-bl">
+            <div class="title">
+                Также к курсу прилагается несколько бонусов
+            </div>
+            <div class="bonus-text">
+                Приобретая наш курс, вы получаете 3 полезных бонуса. Они упростят ваше освоение программы и сделают вашу работу более легкой и продуктивной.
+            </div>
+            <div class="artical-box-3 clearfix">
+                <div class="one-block">
+                    <div class="box-img2"><img src="img/img25.jpg" alt="img"></div>
+                    <div class="title">
+                        100 фотографии от профессионалов
+                    </div>
+                    <div class="text">
+                        <p>
+                            Это дополнительный DVD-диск, который содержит подборку высококачественных снимков. Теперь у вас появится материал для работы и вы сможете спокойно оттачивать свои навыки ретуши.
+                        </p>
+                        <p>
+                            Все <a href="img/full/all.jpg" class="gallery"><img src="img/full/all.jpg" style="display: none;">фотографии</a> для вашего удобства находятся в двух форматах: raw и jpeg.
+                        </p>
+                    </div>
+                </div>
+                <div class="one-block">
+                    <div class="box-img2"><img src="img/img26.jpg" alt="img"></div>
+                    <div class="title">
+                        50 полезных советов по Фотошопу
+                    </div>
+                    <div class="text">
+                        <p>
+                            Все советы и рекомендации собраны из личного опыта и долголетней практики. Это именно те вещи, которые помогут вам справиться с возникшими вопросами и сделают из вас профессионального пользователя.
+                        </p>
+                    </div>
+                </div>
+                <div class="one-block">
+                    <div class="box-img2"><img src="img/img27.jpg" alt="img" style="left: 10px;"></div>
+                    <div class="title">
+                        Горячие клавиши в Фотошопе
+                    </div>
+                    <div class="text">
+                        <p>
+                            В Фотошопе можно отлично работать без горячих клавиш и их комбинаций. Но начав их применять, вы заметите, насколько ваша работа станет быстрее и приятнее. Данная подборка поможет ускорить вашу работу в программе.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="wrapper-block gray pupil">
+        <div class="center-bl">
+            <div class="title">
+                Работы наших учеников
+            </div>
+            <div class="bonus-text">
+                Многие из тех, кто прошел у нас обучение, добиваются высоких результатов. Мы гордимся своими учениками и хотим вам показать некоторые их работы. На наш взгляд, они наиболее точно отражают уровень полученных знаний и навыков.
+            </div>
+            <div class="pupil-box clearfix">
+                <div class="one-pupil">
+                    <div class="box-img">
+                        <a href="img/full/28.jpg" class="gallery" rel="group1"><img src="img/img28.png" alt="img"></a>
+                    </div>
+                    <p>
+                        Денис Демьяненко
+                    </p>
+                    <p>
+                        г. Саратов
+                    </p>
+                </div>
+                <div class="one-pupil">
+                    <div class="box-img">
+                        <a href="img/full/29.jpg" class="gallery" rel="group1"><img src="img/img29.png" alt="img"></a>
+                    </div>
+                    <p>
+                        Елена Мельникова
+                    </p>
+                    <p>
+                        г. Красноярск
+                    </p>
+                </div>
+                <div class="one-pupil">
+                    <div class="box-img">
+                        <a href="img/full/30.jpg" class="gallery" rel="group1"><img src="img/img30.png" alt="img"></a>
+                    </div>
+                    <p>
+                        Сергей Корчагин
+                    </p>
+                    <p>
+                        г. Москва
+                    </p>
+                </div>
+                <div class="one-pupil">
+                    <div class="box-img">
+                        <a href="img/full/31.jpg" class="gallery" rel="group1"><img src="img/img31.png" alt="img"></a>
+                    </div>
+                    <p>
+                        Олег Фомин
+                    </p>
+                    <p>
+                        г. Белгород
+                    </p>
+                </div>
+                <div class="one-pupil">
+                    <div class="box-img">
+                        <a href="img/full/32.jpg" class="gallery" rel="group1"><img src="img/img32.png" alt="img"></a>
+                    </div>
+                    <p>
+                        Александр Арефьев
+                    </p>
+                    <p>
+                        г. Ростов-на-Дону
+                    </p>
+                </div>
+                <div class="one-pupil">
+                    <div class="box-img">
+                        <a href="img/full/33.jpg" class="gallery" rel="group1"><img src="img/img33.png" alt="img"></a>
+                    </div>
+                    <p>
+                        Виктория Твардовская
+                    </p>
+                    <p>
+                        г. Санкт-Петербург
+                    </p>
+                </div>
+                <div class="one-pupil">
+                    <div class="box-img">
+                        <a href="img/full/34.jpg" class="gallery" rel="group1"><img src="img/img34.png" alt="img"></a>
+                    </div>
+                    <p>
+                        Юля Кузнецова
+                    </p>
+                    <p>
+                        г. Нижний Новгород
+                    </p>
+                </div>
+                <div class="one-pupil">
+                    <div class="box-img">
+                        <a href="img/full/35.jpg" class="gallery" rel="group1"><img src="img/img35.png" alt="img"></a>
+                    </div>
+                    <p>
+                        Денис Юсупов
+                    </p>
+                    <p>
+                        г. Казань
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="wrapper-block">
+        <div class="center-bl">
+            <div class="title">
+                Стоимость курса в полном комплекте
+            </div>
+            <div class="bonus-text">
+                Весь комплект будет состоять из видеокурса «Искусство ретуши» и 3-х бонусов.<br>Мы считаем, что подобные курсы должны находиться в доступной ценовой категории и поэтому хотим вам сделать выгодное предложение.
+            </div>
+            <div class="pay-kurs">
+                <div class="text-center">
+                    <img src="img/img46.jpg" alt="img">
+                </div>
+                <div class="price">4 970 руб.</div>
+                <a href="http://vgamme.e-autopay.com/checkout/184777" target="_blank" class="btn-pay">Заказать курс</a>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="guarantees">
+        <div class="title">
+            100% гарантия
+        </div>
+        <div class="bonus-text">
+            <p>
+                Мы понимаем, что у вас могут возникнуть сомнения, подойдет ли вам этот видеокурс и сможете ли вы его освоить.
+            </p>
+            <p>
+                Приобретая курс «Искусство ретуши», вы на 3 месяца получаете 100% гарантию полного возврата денег. Если вам по каким-то причинам не понравится или не подойдет курс, вы можете вернуть полностью всю сумму.
+            </p>
+            <p>
+                Чтобы воспользоваться данной гарантией, вам нужно обратиться в нашу службу поддержки с запросом на возврат денег. Мы вернем вам всю сумму в полном объеме, удобным для вас способом.
+            </p>
+        </div>
+    </div>
+
+    <div class="reviews">
+        <div class="wrap-reviews">
+            <div class="title">
+                Отзывы наших учеников
+            </div>
+            <div class="one-block clearfix">
+                <div class="box-img">
+                    <img src="img/img36.jpg" alt="img">
+                </div>
+                <div class="box-text">
+                    <div class="name">Мария Новикова</div>
+                    <div class="name">г. Тюмень, Студент</div>
+                    <p>
+                        Мы решили запустить новую рубрику, в которой будем рассказывать о новых твиках для ценителей джейлбрейка. Разработчики неустанно трудятся над улучшением дополнительных возможностей iOS и мы будем отбирать самые интересные новинки из мира Cydia. Выбором этой недели стали:
+                    </p>
+                </div>
+            </div>
+            <div class="one-block clearfix">
+                <div class="box-img">
+                    <img src="img/img37.jpg" alt="img">
+                </div>
+                <div class="box-text">
+                    <div class="name">Вячеслав Рожков</div>
+                    <div class="name">г. Барнаул, Дизайнер интерьеров</div>
+                    <p>
+                        Мы решили запустить новую рубрику, в которой будем рассказывать о новых твиках для ценителей джейлбрейка. Разработчики неустанно трудятся над улучшением дополнительных возможностей iOS и мы будем отбирать самые интересные новинки из мира Cydia. Выбором этой недели стали:
+                    </p>
+                </div>
+            </div>
+            <div class="one-block clearfix">
+                <div class="box-img">
+                    <img src="img/img38.jpg" alt="img">
+                </div>
+                <div class="box-text">
+                    <div class="name">Максим Удальцов</div>
+                    <div class="name">г. Москва, Фотограф</div>
+                    <p>
+                        Мы решили запустить новую рубрику, в которой будем рассказывать о новых твиках для ценителей джейлбрейка. Разработчики неустанно трудятся над улучшением дополнительных возможностей iOS и мы будем отбирать самые интересные новинки из мира Cydia. Выбором этой недели стали:
+                    </p>
+                </div>
+            </div>
+            <div class="one-block clearfix">
+                <div class="box-img">
+                    <img src="img/img39.jpg" alt="img">
+                </div>
+                <div class="box-text">
+                    <div class="name">Екатерина Лазарева</div>
+                    <div class="name">г. Екатеринбург, Фотограф</div>
+                    <p>
+                        Мы решили запустить новую рубрику, в которой будем рассказывать о новых твиках для ценителей джейлбрейка. Разработчики неустанно трудятся над улучшением дополнительных возможностей iOS и мы будем отбирать самые интересные новинки из мира Cydia. Выбором этой недели стали:
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="wrapper-block gray">
+        <div class="center-bl">
+            <div class="title">
+                Технические характеристики курса
+            </div>
+            <div class="artical-box-4 clearfix">
+                <div class="one-block">
+                    <div class="box-img2"><img src="img/ico11.png" alt="img"></div>
+                    <div class="title">
+                        Высокое качество видео
+                    </div>
+                    <div class="text">
+                        В каждом уроке мы обрабатываем фотографию полностью до готового результата, что дает вам возможность изучить весь процесс ретуши
+                    </div>
+                </div>
+                <div class="one-block">
+                    <div class="box-img2"><img src="img/ico12.png" alt="img"></div>
+                    <div class="title">
+                        Профессиональный звук
+                    </div>
+                    <div class="text">
+                        Как и весь курс, звук был записан на профессиональном оборудовании, поэтому он будет идеально чистым и без посторонних шумов.
+                    </div>
+                </div>
+                <div class="one-block">
+                    <div class="box-img2"><img src="img/ico13.png" alt="img"></div>
+                    <div class="title">
+                        Работает с любой ОС
+                    </div>
+                    <div class="text">
+                        Курс без проблем будет работать как на системе Windows, так и на системе Mac OS X.
+                    </div>
+                </div>
+                <div class="one-block">
+                    <div class="box-img2"><img src="img/ico14.png" alt="img"></div>
+                    <div class="title">
+                        Совместимость
+                    </div>
+                    <div class="text">
+                        Запись курса производилась в Adobe Photoshop 2015. Несмотря на это, все приемы и исходники также будут работать и в других версиях программы.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="wrapper-block">
+        <div class="center-bl">
+            <div class="title">
+                При заказе нашего основного курса – <br>видеокурс <p class="fiolet-btn">РЕТУШЬ БЕЗ ГРАНИЦ</p> в подарок!
+            </div>
+            <div class="no-border-box clearfix">
+                <div class="clearfix">
+                    <div class="left-q">
+                        <img src="img/img40.jpg" alt="img">
+                    </div>
+                    <div class="right-q">
+                        <p>
+                            При заказе основного курса в течение 12 часов, видеокурс "Ретушь без границ" вы получите в подарок.
+                        </p>
+                        <p>
+                            Это подборка из 5 уроков, которые научат вас создавать по-настоящему креативные работы.
+                        </p>
+                        <div class="price">
+                            <span>2 190 руб.</span> БЕСПЛАТНО
+                        </div>
+                        <div class="akcia">
+                            До конца акции осталось:
+                            <div class="box-timepicker clearfix">
+                                <div class="box-timer">
+                                    <div class="box-for-timer"><span>43</span>дней</div>
+                                    <div class="box-for-timer"><span>22</span>час</div>
+                                    <div class="box-for-timer"><span>34</span>минуты</div>
+                                    <div class="box-for-timer"><span>49</span>секунд</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <a href="http://vgamme.e-autopay.com/checkout/184777" target="_blank" class="btn-pay2">Заказать видеокурс + Подарок</a>
+            </div>
+            <div class="program-video program-video2">
+                <div class="title">Программа видеокурса</div>
+                <div class="block-news">
+                    <div class="one-block clearfix">
+                        <div class="box-img">
+                            <img src="img/img41.jpg" alt="img">
+                        </div>
+                        <div class="box-text">
+                            <div class="article">Урок 1. Ретушь в стиле Джил Гринберг</div>
+                            <p>
+                                В этом уроке мы научимся обрабатывать фотографии в стиле Джил Гринберг. Это достаточно известный фотограф и ретушер, делающий эмоциональные фотографии с очень необычными схемами освещения. Мы разберем с вами, как создать подобное освещение с помощью программы, а также поработаем со светом и тенью, что сделает наш снимок живым и эффектным.
+                            </p>
+                            <p>Длительность: 20:39</p>
+                        </div>
+                    </div>
+                    <div class="one-block clearfix">
+                        <div class="box-img">
+                            <img src="img/img42.jpg" alt="img">
+                        </div>
+                        <div class="box-text">
+                            <div class="article">Урок 2. Каррикатура</div>
+                            <p>
+                                Создание каррикатуры - это всегда весело и интересно. Зачастую их рисуют уличные художники на бумаге. Мы рассмотрим способ, который позволит вам создавать настоящие каррикатуры из фотографий. Благодаря технике, которую применяют художники, наш шарж будет смотреться забавно и оригинально.
+                            </p>
+                            <p>Длительность: 20:39</p>
+                        </div>
+                    </div>
+                    <div class="one-block clearfix">
+                        <div class="box-img">
+                            <img src="img/img43.jpg" alt="img">
+                        </div>
+                        <div class="box-text">
+                            <div class="article">Урок 3. Левитация</div>
+                            <p>
+                                Довольно часто встречаются подобные фотографии, но далеко не многие знают, как они создаются. Мы познакомимся как с самим принципом съемки подобной сцены, так и с ее последующей обработкой. Вы научитесь создавать парящего в воздухе человека таким образом, чтобы это выглядело максимально правдоподобно и эффектно.
+                            </p>
+                            <p>Длительность: 20:39</p>
+                        </div>
+                    </div>
+                    <div class="one-block clearfix">
+                        <div class="box-img">
+                            <img src="img/img44.jpg" alt="img">
+                        </div>
+                        <div class="box-text">
+                            <div class="article">Урок 4. Создание фантастических животных</div>
+                            <p>
+                                Данный урок будет посвящен смешиванию различных видов животных. Несмотря на то, что урок не преследует конкретной цели, он будет интересным и закрепит определенные ваши знания. В нашем примере мы будем экспериментировать с воробьем и котом, что приведет нас к необычному результату.
+                            </p>
+                            <p>Длительность: 20:39</p>
+                        </div>
+                    </div>
+                    <div class="one-block clearfix">
+                        <div class="box-img">
+                            <img src="img/img45.jpg" alt="img">
+                        </div>
+                        <div class="box-text">
+                            <div class="article">Урок 5. Постер</div>
+                            <p>
+                                Это заключительный урок данного курса, который будет посвящен созданию полноценного постера. Мы научимся переносить объекты с одного на другой снимок так, чтобы они в результате стали единым целым. Для этого мы поработаем со светом и отражением, с созданием теней, цветокоррекцией и многим другим.
+                            </p>
+                            <p>Длительность: 20:39</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="wrapper-block gray">
+        <div class="center-bl">
+            <div class="title">
+                Способы доставки
+            </div>
+            <div class="artical-box-4 artical-box-2 clearfix">
+                <div class="one-block" style="display: none;">
+                    <div class="box-img2"><img src="img/ico16.png" alt="img"></div>
+                    <div class="title">
+                        Скачивание электронной версии
+                    </div>
+                    <div class="text">
+                        Сразу после оплаты курса вы получите письмо, в котором будет находиться инструкция , а также ссылки на его скачивание. Объем курса вместе с бонусами составляет 20 Гб.
+                    </div>
+                </div>
+                <div class="one-block" style="margin-left: 240px;">
+                    <div class="box-img2"><img src="img/ico17.png" alt="img"></div>
+                    <div class="title">
+                        Доставка дисков по почте
+                    </div>
+                    <div class="text">
+                        Если вы выберете курс на физическом носителе, доставка его будет осуществляться по почте наложенным платежом. Стоимость доставки будет указана при оформлении заказа.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="wrapper-block">
+        <div class="center-bl">
+            <div class="title">
+                Ответы на частые вопросы
+            </div>
+            <div class="faq-box">
+                <div class="one-faq">
+                    <div class="title">
+                        <i class="mess-faq-ico"></i>
+                        Вдруг мне не понравится курс или я не смогу добиться результата?
+                    </div>
+                    <p>
+                        В нашем курсе уроки записаны таким образом, что они достаточно легко воспринимаются и дают отличные результаты. Если по каким-то причинам вас не устроит курс, в течение 90 дней после заказа вы сможете вернуть полностью всю сумму.
+                    </p>
+                </div>
+                <div class="one-faq">
+                    <div class="title">
+                        <i class="mess-faq-ico"></i>
+                        Как я смогу применить полученные знания?
+                    </div>
+                    <p>
+                        Фотошоп используется во многих сферах и область его применения очень обширна. Вы можете ретушировать как свои личные фотографии, так и работать с профессиональными снимками для глянцевых журналов.
+                    </p>
+                </div>
+                <div class="one-faq">
+                    <div class="title">
+                        <i class="mess-faq-ico"></i>
+                        Как можно оплатить курс?
+                    </div>
+                    <p>
+                        При получении диска оплата происходит на почте, доступными там способами. Приобретая электронную версию, осуществить оплату вы можете разными путями, начиная от электронных денег и заканчивая пластиковыми картами.
+                    </p>
+                </div>
+                <div class="one-faq">
+                    <div class="title">
+                        <i class="mess-faq-ico"></i>
+                        В какие города происходит доставка?
+                    </div>
+                    <p>
+                        Доставка осуществляется в любую точку России.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="wrap-footer clearfix">
+            <a href="#" class="logo-footer"></a>
+            <a href="#" class="politica" data-toggle="modal" data-target="#myModal">Политика Конфиденциальности</a>
+            <div class="contact">
+                <div class="telephone">8 (800) 333-69-44</div>
+                звонок по России бесплатный
+            </div>
+        </div>
+    </footer>
+    <div id="myModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display: none;">
+        <div class="modal-dialog">
+            <div class="modal-content">
+
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-hidden="true">?</button>
+                    <h4 class="modal-title" id="myModalLabel">Политика Конфиденциальности</h4>
+                </div>
+                <div class="modal-body">
+						<div class="title">
+    ПОЛИТИКА ЗАЩИТЫ ПЕРСОНАЛЬНОЙ ИНФОРМАЦИИ ПОЛЬЗОВАТЕЛЕЙ САЙТА
+</div>
+
+<div class="title2">1. Общие условия</div>
+<p>
+    1.1. Настоящая Политика определяет порядок обработки и защиты информации о физических лицах (далее – Пользователи), которая может быть получена selfpro.me при использовании Пользователем услуг предоставляемых посредством сайта, сервисов, служб, программ (далее – Сайт, Сервисы).
+</p><p>
+    1.2. Целью настоящей Политики является обеспечение надлежащей защиты информации о Пользователях, в том числе их персональных данных, от несанкционированного доступа и разглашения.
+</p><p>
+    1.3. Отношения, связанные со сбором, хранением, распространением и защитой информации предоставляемой Пользователем, регулируются настоящей Политикой, иными официальными документами и действующим законодательством Российской Федерации.
+</p><p>
+    1.4. Регистрируясь на Сайте и используя Сайт и Сервисы Пользователь выражает свое полное согласие с условиями настоящей Политики.
+</p><p>
+    1.5. В случае несогласия Пользователя с условиями настоящей Политики использование Сайта и/или каких-либо Сервисов доступных при использовании Сайта должно быть немедленно прекращено.
+</p>
+<div class="title2">
+    2. Цели сбора, обработки и хранения информации предоставляемой пользователями Сайта
+</div>
+<p>
+    2.1. Обработка персональных данных Пользователя осуществляется в соответствии с законодательством Российской Федерации. Сайт selfpro.me обрабатывает персональные данные Пользователя в целях:
+</p>
+<p>
+    - идентификации стороны в рамках соглашений;</p>
+<p>
+    - предоставления Пользователю услуг, в том числе, в целях получения Пользователем таргетированной рекламы;</p>
+<p>
+    - проверки, исследования и анализа таких данных, позволяющих поддерживать и улучшать сервисы и разделы Сайта, а также разрабатывать новые сервисы и разделы Сайта.</p>
+<p>
+    - проведение статистических и иных исследований на основе обезличенных данных.</p>
+
+<p>
+    2.2. Сайт selfpro.me использует <a href="http://www.google.com/intl/ru/analytics/features/remarketing.html">функцию ремаркетинга Google Analytics</a>. Ремаркетинг в Google Analytics позволяет отменить показ Пользователю рекламных объявлений тех продуктов, услуг и сервисов, которые уже были получены Пользователем и более не представляют интереса для Пользователя. Для ремаркетинга используется сторонний файл cookie.
+</p><p>
+    Для изменения и отключения использования Google Analytics Пользователь может воспользоваться:
+</p>
+<p>
+    - <a href="http://www.google.com/ads/preferences/?hl=ru">менеджером рекламных предпочтений Google;</a>
+</p>
+<p>
+    - <a href="http://tools.google.com/dlpage/gaoptout/">блокировщиком Google Analytics.</a>
+</p>
+<p>
+    Политика конфиденциальности Google опубликована по <a href="http://www.google.ru/intl/ru/policies/terms/regional.html">ссылке</a>.
+</p>
+
+<div class="title2">
+    3. Условия обработки персональной информации предоставленной Пользователем и ее передачи третьим лицам
+</div>
+
+<p>
+    3.1. Администрация сайта selfpro.me принимает все необходимые меры для защиты персональных данных Пользователя от неправомерного доступа, изменения, раскрытия или уничтожения.
+</p><p>
+    3.2. Администрация сайта selfpro.me предоставляет доступ к персональным данным Пользователя только тем работникам, подрядчикам и аффилированным лицам которым эта информация необходима для обеспечения функционирования Сайта, Сервисов и оказания Услуг Пользователю.
+</p><p>
+    3.3. Администрация сайта selfpro.me вправе использовать предоставленную Пользователем информацию, в том числе персональные данные, в целях обеспечения соблюдения требований действующего законодательства Российской Федерации (в том числе в целях предупреждения и/или пресечения незаконных и/или противоправных действий Пользователей). Раскрытие предоставленной Пользователем информации может быть произведено лишь в соответствии с действующим законодательством Российской Федерации по требованию суда, правоохранительных органов, а равно в иных предусмотренных законодательством Российской Федерации случаях.
+</p>
+
+
+<div class="title2">
+    4. Условия пользования Сайтом, Сервисами
+</div>
+<p>
+    4.1. Пользователь при пользовании Сайтом, подтверждает, что:
+</p><p>
+    обладает всеми необходимыми правами, позволяющими ему осуществлять регистрацию (создание учетной записи) и использовать Услуги сайта;
+</p><p>
+    указывает достоверную информацию о себе в объемах, необходимых для пользования Услугами Сайта, обязательные для заполнения поля для дальнейшего предоставления Услуг сайта помечены специальным образом, вся иная информация предоставляется пользователем по его собственному усмотрению.
+</p><p>
+    осознает, что информация на Сайте, размещаемая Пользователем о себе, может становиться доступной для третьих лиц не оговоренных в настоящей Политике и может быть скопирована и распространена ими;
+</p><p>
+    ознакомлен с настоящей Политикой, выражает свое согласие с ней и принимает на себя указанные в ней права и обязанности. Ознакомление с условиями настоящей Политики и проставление галочки под ссылкой на данную Политику является письменным согласием Пользователя на сбор, хранение, обработку и передачу третьим лицам персональных данных предоставляемых Пользователем.
+</p><p>
+    4.2. Администрация сайта selfpro.me не проверяет достоверность получаемой (собираемой) информации о Пользователях, за исключением случаев, когда такая проверка необходима в целях исполнения обязательств перед пользователем.
+</p>
+<div class="title2">
+    5. В рамках настоящей Политики под «персональной информацией Пользователя» понимаются:
+</div>
+<p>
+    5.1. Данные предоставленные Пользователем самостоятельно при пользовании Сайтом, Сервисами включая но, не ограничиваясь: имя, фамилия, пол, номер мобильного телефона и/или адрес электронной почты, домашний адрес.
+</p><p>
+    5.2. Данные, которые автоматически передаются Сервисам в процессе их использования с помощью установленного на устройстве Пользователя программного обеспечения, в том числе IP-адрес, информация из cookie, информация о браузере пользователя (или иной программе, с помощью которой осуществляется доступ к Сервисам), время доступа, адрес запрашиваемой страницы.
+</p><p>
+    5.3 Иная информация о Пользователе, сбор и/или предоставление которой определено в Регулирующих документах отдельных Сервисов сайта selfpro.me.
+</p>
+
+<div class="title2">6. Изменение и удаление персональных данных</div>
+<p>
+    6.1. Пользователь может в любой момент изменить (обновить, дополнить) предоставленную им персональную информацию или её часть, а также параметры её конфиденциальности, воспользовавшись функцией редактирования персональных данных в разделе, либо в персональном разделе соответствующего Сервиса.
+</p><p>
+    6.2. Пользователь также может удалить предоставленную им в рамках определенной учетной записи персональную информацию. При этом удаление аккаунта может повлечь невозможность использования некоторых Сервисов.
+</p>
+
+<div class="title2">
+    7. Изменение Политики конфиденциальности. Применимое законодательство
+</div>
+<p>
+    7.1. Администрация сайта selfpro.me имеет право вносить изменения в настоящую Политику конфиденциальности. При внесении изменений в актуальной редакции указывается дата последнего обновления. Новая редакция Политики вступает в силу с момента ее размещения, если иное не предусмотрено новой редакцией Политики. Действующая редакция всегда находится на странице по адресу <a href="http://selfpro.me/">http://selfpro.me/</a>.
+</p><p>
+    7.2. К настоящей Политике и отношениям между Пользователем и сайтом selfpro.me возникающим в связи с применением Политики конфиденциальности, подлежит применению право Российской Федерации.
+</p>
+
+
+<div class="title2">
+    8. Обратная связь. Вопросы и предложения
+</div>
+
+<p>
+    8.1. Все предложения или вопросы по поводу настоящей Политики следует сообщать в Службу поддержки selfpro.me.
+</p>
+
+<a class="big" href="http://selfpro.me/">selfpro.me</a>
+				</div>
+
+            </div><!-- /.modal-content -->
+        </div><!-- /.modal-dialog -->
+    </div>
+	<!--<script type="text/javascript" src="js/modal.js"></script>-->
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/moment.js"></script>
+    <script>
+            setInterval(function(){
+                timer("2015-12-28");
+            }, 1000);
+        function timer(data){
+            var now=moment().format('YYYY-MM-DD HH:mm:ss');
+            var last=moment(data);
+            var time=last.diff(now)/1000;
+
+            var day=time/86400;
+            var hour=time%86400;
+            var min=hour%3600;
+            hour=hour/3600;
+            var sec=min%60;
+            min=min/60;
+            min=Math.floor(min);
+            hour=Math.floor(hour);
+            day=Math.floor(day);
+            day=day.toString();
+            hour=hour.toString();
+            min=min.toString();
+            sec=sec.toString();
+            if (day.length==1){
+                day='0'+day;
+            }
+            if (hour.length==1){
+                hour='0'+hour;
+            }
+            if (min.length==1){
+                min='0'+min;
+            }
+            if (sec.length==1){
+                sec='0'+sec;
+            }
+
+            $(".box-timer>.box-for-timer:eq(0)>span").html(day);
+            $(".box-timer>.box-for-timer:eq(1)>span").html(hour);
+            $(".box-timer>.box-for-timer:eq(2)>span").html(min);
+            $(".box-timer>.box-for-timer:eq(3)>span").html(sec);
+        }
+    </script>
+	<script>
+		function playvideo()
+		{
+			$("div.box-video").append('<iframe class="playvideo" width="980" height="550" src="https://www.youtube.com/embed/-H92Nz9qzPo?rel=0&autoplay=1" frameborder="0" allowfullscreen></iframe>');
+			$("a.play-video, div.play-video").css('display','none');
+		}
+		$("a.gallery").fancybox();
+	</script>
+
+</body></html>

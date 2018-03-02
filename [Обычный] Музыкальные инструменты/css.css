@@ -1,0 +1,87 @@
+* {
+	color: white;
+	font-family: 'Roboto', sans-serif;
+	margin: 0;
+	padding: 0;
+	border: 0 !important;
+}
+html, body {
+	height: 100%;
+}
+body#piano {
+	background: url('./img/piano.jpg') no-repeat fixed center center;
+	background-size: cover;
+}
+body#cello {
+	background: url('./img/cello.jpg') no-repeat fixed center center;
+	background-size: cover;
+}
+body#saxophone {
+	background: url('./img/saxophone.jpg') no-repeat fixed center center;
+	background-size: cover;
+}
+a {
+	text-decoration: none;
+}
+article {
+	margin-top: 200px;
+}
+p {
+	font-size: 28pt;
+	font-weight: 100;
+}
+h1 {
+	font-size: 72pt;
+	font-weight: 100;
+}
+.title {
+	text-transform: uppercase;
+}
+
+#line {
+	background: url('./img/line.png') no-repeat center center;
+    position: relative;
+    bottom: 130px;
+    height: 5px;
+    left: -270px;
+    width: 145%;
+    background-size: 100%;
+}
+
+
+nav {
+	margin-top: 100px;
+	margin-bottom: 60px;
+}
+nav ul {
+	list-style: none;
+	padding-left: 0px;
+}
+nav ul li {
+	display: inline-block;
+	margin: 0px 40px 0px 40px;
+}
+nav ul li.first {
+	margin: 0px !important;
+}
+nav ul li a {
+	font-size: 24pt;
+	font-weight: 100;
+}
+nav ul li.active a {
+	font-size: 30pt;
+	font-weight: 400;
+}
+nav ul li:hover > a {
+	font-weight: 400;
+	font-size: 30pt;
+}
+
+
+#wrapper {
+	height: 100%;
+}
+#main {
+	width: 1000px;
+	margin-left: 300px;
+}

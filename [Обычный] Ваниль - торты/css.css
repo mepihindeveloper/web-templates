@@ -1,0 +1,134 @@
+* {
+	font-size: 18px;
+	font-family: 'Roboto', sans-serif;
+}
+main {
+	width: 968px;
+	margin: 0 auto;
+}
+header {
+	text-align: center;
+}
+.sitetitle
+{
+	
+font-size: 72px;
+	
+color: #ecd8d8;
+	
+text-transform: uppercase;
+}
+.menu {
+    list-style-type: none;
+    margin: 0 auto;
+    padding: 0;
+    overflow: hidden;
+    width: 470px;
+    text-transform: uppercase;
+	margin-bottom: 50px;
+}
+
+.menu li {
+    float: left;
+    border-right: 1px solid;
+    padding: 15px 26px;
+}
+
+.menu li a {
+    display: block;
+    color: #6f6f6f;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.menu li a:hover:not(.active) {
+    text-decoration: underline;
+}
+
+.menu li a.active {
+    color: white;
+    background-color: #4CAF50;
+}
+.thumbnail {
+	padding-bottom: 50px;
+	text-decoration: none;
+}
+.thumbnail img {
+	width: 480px;
+}
+.thumbnail p {
+	font-size: 24px;
+	color: black;
+}
+.clear {
+	clear: both;
+}
+.thumbnail-left {
+	width: 480px;
+	float: left;
+}
+.thumbnail-right {
+	width: 480px;
+	float: right;
+}
+
+footer {
+	margin: 0 auto;
+	text-align: center;
+	width: 480px;
+}
+.bt {
+	border-top: 2px solid #ecd8d8;
+	margin-top: 50px;
+}
+.sort {
+}
+.elem {
+	width: 300px;
+	display: inline-block;
+	vertical-align: top;
+	text-decoration: none;
+}
+.elem img {
+	width: 300px;
+	height: 200px;
+	-webkit-filter: grayscale(100%);
+	-webkit-transition: .5s ease-in-out;
+	-moz-filter: grayscale(100%); 
+	-moz-transition: .5s ease-in-out;
+	-o-filter: grayscale(100%); 
+	-o-transition: .5s ease-in-out;
+}
+.elem img:hover, .g li img:hover {
+	-webkit-filter: grayscale(0%);
+	-webkit-transition: .5s ease-in-out;
+	-moz-filter: grayscale(0%);
+	-moz-transition: .5s ease-in-out;
+	-o-filter: grayscale(0%);
+	-o-transition: .5s ease-in-out;
+}
+
+.galary {
+	
+}
+.g {
+	padding-left: 0px;
+}
+.g li {
+	display: inline-block;
+	
+}
+.big {
+	max-height: 637px;
+}
+.g li img {
+	width: 150px;
+	height: 100px;
+	-webkit-filter: grayscale(100%);
+	-webkit-transition: .5s ease-in-out;
+	-moz-filter: grayscale(100%); 
+	-moz-transition: .5s ease-in-out;
+	-o-filter: grayscale(100%); 
+	-o-transition: .5s ease-in-out;
+}
